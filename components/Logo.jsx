@@ -12,12 +12,12 @@ const Logo = () => {
       className='cursor-pointer flex items-center'
     >
       <MdOutlineShoppingCart
-        className='font-bold text-orange-600 ml-4'
+        className='font-bold text-orange-600 mr-0.5'
         size={26}
       />
       <h1
         onClick={() => router.push('/')}
-        className='flex items-center cursor-pointer text-2xl font-bold tracking-wide'
+        className='flex items-center cursor-pointer text-gray-700 text-2xl font-bold tracking-wide'
       >
         Tech<span className='font-medium'>Mart</span>
       </h1>
